@@ -1,0 +1,26 @@
+{
+  "name": "platzi-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryhanS/platzi-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryhanS/platzi-bootstrap/issues"
+  },
+  "homepage": "https://github.com/BryhanS/platzi-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3"
+  }
+}
